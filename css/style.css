@@ -233,3 +233,22 @@ div div div {
 .content_flex_3 {
     flex: 0 1 300px;
 }
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid_container *, .grid_container_2 *, .grid_container_3 * {
+    outline: 2px solid black;
+}
+
+.grid_container_2 {
+    display: grid;
+    grid-template-columns: 800px 400px;
+}
+
+.grid_container_3 {
+    display: grid;
+    grid-template-columns: 600px 600px;
+}
