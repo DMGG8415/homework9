@@ -253,9 +253,18 @@ div div div {
     grid-template-columns: 600px 600px;
 }
 
+.in_grid_3 {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+}
+
+.in_grid_4 {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+}
+
 .areas_container {
     display: grid;
-    width: 1200px;
     margin: auto;
     text-align: center;
     padding: 20px 0;
