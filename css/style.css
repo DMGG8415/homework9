@@ -252,3 +252,94 @@ div div div {
     display: grid;
     grid-template-columns: 600px 600px;
 }
+
+.areas_container {
+    display: grid;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    grid-template-areas:
+        "A A B B C"
+        "D D D D E"
+        "D D D D F"
+        "H H H H F"
+        "H H H H I"
+        "J J J K K"
+        "L M M K K"
+        "N N N N O"
+        "P P Q Q O"
+        "R R Q Q O"
+}
+
+.areas_container * {
+    outline: 2px solid black;
+}
+
+.item_1 {
+    grid-area: A;
+}
+
+.item_2 {
+    grid-area: B;
+}
+
+.item_3 {
+    grid-area: C;
+}
+
+.item_4 {
+    grid-area: D;
+}
+
+.item_5 {
+    grid-area: E;
+}
+
+.item_6 {
+    grid-area: F;
+}
+
+.item_7 {
+    grid-area: H;
+}
+
+.item_8 {
+    grid-area: I;
+}
+
+.item_9 {
+    grid-area: J;
+}
+
+.item_10 {
+    grid-area: K;
+}
+
+.item_11 {
+    grid-area: L;
+}
+
+.item_12 {
+    grid-area: M;
+}
+
+.item_13 {
+    grid-area: N;
+}
+
+.item_14 {
+    grid-area: O;
+}
+
+.item_15 {
+    grid-area: P;
+}
+
+.item_16 {
+    grid-area: Q;
+}
+
+.item_17 {
+    grid-area: R;
+}
