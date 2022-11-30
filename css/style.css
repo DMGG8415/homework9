@@ -265,9 +265,6 @@ div div div {
 
 .areas_container {
     display: grid;
-    margin: auto;
-    text-align: center;
-    padding: 20px 0;
     grid-template-areas:
         "A A B B C"
         "D D D D E"
