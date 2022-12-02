@@ -129,7 +129,7 @@ div div div {
     background: black;
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 50%;
 }
 
 .main_container * {
