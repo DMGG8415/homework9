@@ -100,22 +100,17 @@ div div div {
     color: brown;
 }
 
-.header {
+.nav_gal {
     background-color: lightcoral;
     position: fixed;
     z-index: 10;
-    width: 100%;
-    text-align: center;
-}
-
-.in_header {
-    width: 1200px;
+    left: 0;
+    top: 50%;
     display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
+    flex-direction: column;
 }
 
-.in_header > a {
+.nav_gal > a {
     color: white;
 }
 
