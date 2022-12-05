@@ -14,8 +14,8 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
+    font-size: 100%;
     vertical-align: baseline;
 }
 
@@ -38,8 +38,8 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
     content: none;
+    content: '';
 }
 
 table {
@@ -56,7 +56,7 @@ html {
     width: 1200px;
     margin: auto;
     text-align: center;
-    padding: 20px 0;
+    padding: 100px 0;
 }
 
 .content {
@@ -98,6 +98,67 @@ a {
 
 div div div {
     color: brown;
+}
+
+.header {
+    width: 100%;
+    background: #DCFFF8;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 20px;
+    background: #D67429;
+    position: relative;
+    width: 300px;
+}
+
+ul li:hover {
+    background: #7429D6;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    padding: 20px 20px;
+}
+
+.main_list {
+    display: none;
+    top: 100%;
+    left: 0;
+    position: absolute;
+}
+
+.main_list_header:hover .main_list {
+    display: block;
+}
+
+.float_list {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+}
+
+.float_list_head:hover .float_list {
+    display: block;
+}
+
+.grid_list_head:hover .grid_list {
+    display: block;
+}
+
+.grid_list {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    display: none;
 }
 
 .nav_gal {
