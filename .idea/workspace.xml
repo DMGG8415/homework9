@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f73c55c2-0514-4d61-8dd6-13b546c85f75" name="Changes" comment="test 5">
+    <list default="true" id="f73c55c2-0514-4d61-8dd6-13b546c85f75" name="Changes" comment="homework11 Header">
+      <change afterPath="$PROJECT_DIR$/float-no-fix.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/flex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/float.html" beforeDir="false" afterPath="$PROJECT_DIR$/float.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grid_areas.html" beforeDir="false" afterPath="$PROJECT_DIR$/grid_areas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inline-block.html" beforeDir="false" afterPath="$PROJECT_DIR$/inline-block.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table-cell.html" beforeDir="false" afterPath="$PROJECT_DIR$/table-cell.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,10 @@
       <workItem from="1670151965470" duration="6973000" />
       <workItem from="1670179364298" duration="2445000" />
       <workItem from="1670231893364" duration="9120000" />
-      <workItem from="1670255467266" duration="2969000" />
+      <workItem from="1670255467266" duration="3828000" />
+      <workItem from="1670352661939" duration="254000" />
+      <workItem from="1670429424642" duration="20000" />
+      <workItem from="1670613434081" duration="1685000" />
     </task>
     <task id="LOCAL-00001" summary="test 2">
       <created>1669493097889</created>
@@ -134,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670060787362</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="homework11 Header">
+      <created>1670258535800</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670258535800</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +159,7 @@
     <MESSAGE value="test 3" />
     <MESSAGE value="test 4" />
     <MESSAGE value="test 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 5" />
+    <MESSAGE value="homework11 Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework11 Header" />
   </component>
 </project>
