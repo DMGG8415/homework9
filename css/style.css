@@ -156,7 +156,7 @@ ul li a {
 
 .grid_list {
     position: absolute;
-    top: 0;
+    top: -100%;
     right: 100%;
     display: none;
 }

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f73c55c2-0514-4d61-8dd6-13b546c85f75" name="Changes" comment="homework11 Header">
-      <change afterPath="$PROJECT_DIR$/float-no-fix.html" afterDir="false" />
+    <list default="true" id="f73c55c2-0514-4d61-8dd6-13b546c85f75" name="Changes" comment="homework11 Header2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
@@ -65,7 +64,8 @@
       <workItem from="1670255467266" duration="3828000" />
       <workItem from="1670352661939" duration="254000" />
       <workItem from="1670429424642" duration="20000" />
-      <workItem from="1670613434081" duration="1685000" />
+      <workItem from="1670613434081" duration="2258000" />
+      <workItem from="1670654489054" duration="707000" />
     </task>
     <task id="LOCAL-00001" summary="test 2">
       <created>1669493097889</created>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670258535800</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="homework11 Header2.0">
+      <created>1670615200282</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670615200282</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
     <MESSAGE value="test 4" />
     <MESSAGE value="test 5" />
     <MESSAGE value="homework11 Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework11 Header" />
+    <MESSAGE value="homework11 Header2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework11 Header2.0" />
   </component>
 </project>
