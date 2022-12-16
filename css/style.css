@@ -147,7 +147,7 @@ div div div {
     background: #7429D6;
 }
 
-.float_list_head a:before {
+.float_list_head ul:before {
     background: url("/img/css_sprites.png") -105px -105px;
 }
 
