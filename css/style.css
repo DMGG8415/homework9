@@ -110,7 +110,7 @@ div div div {
     padding: 10px 0;
 }
 
-ul li {
+.main_menu li {
     display: inline-block;
     font-size: 20px;
     background: #D67429;
@@ -118,11 +118,40 @@ ul li {
     width: 300px;
 }
 
-ul li:hover {
+.main_menu li a:before {
+    content: "";
+    background: url("/img/css_sprites.png") -105px 101px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.main_menu :first-child a:before {
+    background: url("/img/css_sprites.png") -105px -1px;
+}
+.main_menu :last-child a:before {
+    background: url("/img/css_sprites.png") 0 50px;
+    top: 10%;
+    right: 5%;
+    left: auto;
+}
+
+.main_list_header:hover a:before {
+    background: url("/img/css_sprites.png") -53px -101px;
+}
+
+.main_menu li:hover {
     background: #7429D6;
 }
 
-ul li a {
+.float_list_head a:before {
+    background: url("/img/css_sprites.png") -105px -105px;
+}
+
+.main_menu li a {
     display: block;
     color: white;
     padding: 20px 20px;
@@ -137,6 +166,35 @@ ul li a {
 
 .main_list_header:hover .main_list {
     display: block;
+}
+
+.soc_menu {
+    font-size: 0;
+    text-align: left;
+}
+
+.soc_menu  li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.soc_menu  li a{
+    background: url("/img/css_sprites.png") -1px -1px;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.soc_menu li+li a {
+    background-position: -52px -1px;
+}
+
+.soc_menu li+li+li a {
+    background-position: -1px 103px;
+}
+
+.soc_menu li+li+li+li a {
+    background-position: -53px 103px;
 }
 
 .float_list {
