@@ -118,7 +118,7 @@ div div div {
     width: 300px;
 }
 
-.main_menu li a:before {
+.main_menu>li>a:before {
     content: "";
     background: url("../img/css_sprites.png") -105px 101px;
     width: 50px;
@@ -129,11 +129,11 @@ div div div {
     left: 5%;
 }
 
-.main_menu :first-child a:before {
+.main_menu :first-child>a:before {
     background: url("../img/css_sprites.png") -105px -1px;
 }
 
-.main_menu :last-child a:before {
+.main_menu .main_list_header>a:before {
     background: url("../img/css_sprites.png") 0 50px;
     top: 10%;
     right: 5%;
@@ -142,6 +142,34 @@ div div div {
 
 .main_list_header:hover>a:before {
     background: url("../img/css_sprites.png") -53px -101px;
+}
+
+.float_list_head>a:before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: url("../img/css_sprites.png") -108px 51px;
+}
+
+.float_list_head:hover>a:before {
+    background: url("../img/css_sprites.png") 50px -1px;
+}
+
+.grid_list_head>a:before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: url("../img/css_sprites.png") 50px -1px;
+}
+
+.grid_list_head:hover>a:before {
+    background: url("../img/css_sprites.png") -108px 51px;
 }
 
 .main_menu li:hover {
