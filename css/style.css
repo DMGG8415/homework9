@@ -181,17 +181,31 @@ div div div {
     display: block;
     color: white;
     padding: 20px 20px;
+    z-index: 10;
 }
 
 .main_list {
-    display: none;
+    /*display: none;*/
     top: 100%;
     left: 0;
     position: absolute;
+    opacity: 0;
 }
 
 .main_list_header:hover .main_list {
-    display: block;
+    /*display: block;*/
+    opacity: 1;
+
+}
+
+.main_list {
+    transform: scaleY(0);
+    transition: transform .4s ease-in .15s;
+    transform-origin: top;
+}
+
+.main_list_header:hover .main_list {
+    transform: scaleY(1);
 }
 
 .soc_menu {
@@ -227,22 +241,40 @@ div div div {
     position: absolute;
     left: 100%;
     top: 0;
-    display: none;
+    /*display: none;*/
+    opacity: 0;
 }
 
 .float_list_head:hover .float_list {
-    display: block;
+    /*display: block;*/
+    opacity: 1;
+}
+
+.float_list {
+    transform: scaleX(0);
+    transition: transform .4s ease-in .15s;
+    transform-origin: left;
+}
+
+.float_list_head:hover .float_list {
+    transform: scaleX(1);
 }
 
 .grid_list_head:hover .grid_list {
-    display: block;
+    /*display: block;*/
+    opacity: 1;
+    transform: scaleX(1);
 }
 
 .grid_list {
     position: absolute;
     top: -100%;
     right: 100%;
-    display: none;
+    /*display: none;*/
+    opacity: 0;
+    transform: scaleX(0);
+    transition: transform .4s ease-in .15s;
+    transform-origin: right;
 }
 
 .nav_gal {
