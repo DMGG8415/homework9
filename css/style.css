@@ -218,22 +218,22 @@ div div div {
     font-size: 20px;
 }
 
-.soc_menu  li a{
+.soc_menu li a, .soc_list li a:before {
     background: url("../img/css_sprites.png") -1px -1px;
     display: block;
     width: 50px;
     height: 50px;
 }
 
-.soc_menu li+li a {
-    background-position: -52px -1px;
+.soc_menu li+li a, .soc_list li+li a:before {
+    background-position: -53px -1px;
 }
 
-.soc_menu li+li+li a {
+.soc_menu li+li+li a, .soc_list li+li+li a:before {
     background-position: -1px 103px;
 }
 
-.soc_menu li+li+li+li a {
+.soc_menu li+li+li+li a, .soc_list li+li+li+li a:before {
     background-position: -53px 103px;
 }
 
@@ -553,4 +553,92 @@ div div div {
 
 .item_17 {
     grid-area: R;
+}
+
+/*transform*/
+
+.hover_window {
+    position: fixed;
+    right: -10%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 48px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    transition: all 1s ease-out ;
+}
+
+.hover_me {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin: 24px 24px;
+    transform: rotate(-90deg);
+}
+
+.hover_window:hover {
+    top: 50%;
+    right: 0
+
+}
+
+.soc_list {
+    position: relative;
+    padding: 0 0 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    top: calc(50% - 32px);
+    left: calc(50% - 72px);
+    transform: rotate(-45deg);
+    z-index: 10;
+}
+
+
+
+.soc_list li a:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    border: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    display: block;
+}
+
+.soc_list li a {
+    position: relative;
+    overflow: hidden;
+}
+
+.hover_window::after,
+.hover_window::before {
+    content: '';
+    position: absolute;
+    border: 2px solid black;
+    left: -20px;
+    opacity: 0;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    animation: pulse 2.5s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
 }
