@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f73c55c2-0514-4d61-8dd6-13b546c85f75" name="Changes" comment="homework11 Header2.1">
+    <list default="true" id="f73c55c2-0514-4d61-8dd6-13b546c85f75" name="Changes" comment="homework15 hover me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,10 @@
       <workItem from="1671791012906" duration="4318000" />
       <workItem from="1671874001023" duration="1219000" />
       <workItem from="1671894644401" duration="6123000" />
-      <workItem from="1671901460860" duration="4948000" />
+      <workItem from="1671901460860" duration="5599000" />
+      <workItem from="1672160766094" duration="1685000" />
+      <workItem from="1672166243109" duration="7850000" />
+      <workItem from="1672174914674" duration="1349000" />
     </task>
     <task id="LOCAL-00001" summary="test 2">
       <created>1669493097889</created>
@@ -200,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671225793829</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="homework15 hover me">
+      <created>1671906472911</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671906472911</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +236,7 @@
     <MESSAGE value="homework11 Header" />
     <MESSAGE value="homework11 Header2.0" />
     <MESSAGE value="homework11 Header2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework11 Header2.1" />
+    <MESSAGE value="homework15 hover me" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework15 hover me" />
   </component>
 </project>

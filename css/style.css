@@ -297,12 +297,17 @@ div div div {
 }
 
 .in_gallery_first {
-    color: white;
-    background: black;
+    background: rgba(0,0,0, 0.5);
     width: 100%;
     position: absolute;
     left: 0;
     top: calc(50% - 8px);
+}
+
+.in_gallery_first span {
+    background: linear-gradient(to right, rgb(255 165 0), rgb(0 128 0));
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .main_container * {
@@ -603,7 +608,7 @@ div div div {
     content: "";
     top: 0;
     left: 0;
-    border: 0;
+    bottom: 0;
     right: 0;
     width: 50px;
     height: 50px;
@@ -614,6 +619,7 @@ div div div {
 .soc_list li a {
     position: relative;
     overflow: hidden;
+    border-radius: 50%;
 }
 
 .hover_window::after,
@@ -641,4 +647,30 @@ div div div {
         transform: scale(1.5);
         opacity: 0;
     }
+}
+
+.gradient {
+    height: 800px;
+    position: relative;
+    /*background: green;*/
+}
+
+.gradient:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 70%;
+    height: 50%;
+    background: radial-gradient(at top right, transparent 71%, rgba(0, 0, 255, 0.4) 60%)
+}
+
+.gradient:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    height: 50%;
+    background: radial-gradient(at top left, transparent 71%, rgba(255, 255, 0, 0.4) 60%);
 }
