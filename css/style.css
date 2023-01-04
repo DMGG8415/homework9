@@ -674,3 +674,246 @@ div div div {
     height: 50%;
     background: radial-gradient(at top left, transparent 71%, rgba(255, 255, 0, 0.4) 60%);
 }
+
+.figure {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.bolt {
+    position: absolute;
+    height: 30px;
+    top: 10%;
+    left: 0;
+}
+
+.main_bolt {
+    background: linear-gradient(70deg, black 40%, white 45%, black 50%, white 55%, black 60%, white 65%, black 70%, white 75%, black 80%, white 85%, black 90% );
+    width: 100px;
+    height: 50px;
+    position: relative;
+}
+
+.main_bolt:before {
+    position: absolute;
+    content: "";
+    right: 90%;
+    top: -10px;
+    background: black;
+    width: 20px;
+    height: 32px;
+    border-radius: 100% 0 0 0;
+}
+
+.main_bolt:after {
+    position: absolute;
+    content: "";
+    right: 90%;
+    bottom: -10px;
+    background: black;
+    width: 20px;
+    height: 32px;
+    border-radius: 0 0 0 100%;
+}
+
+.nut {
+    position: absolute;
+    height: 30px;
+    left: 30%;
+    top: 10%;
+}
+
+.main_nut {
+    display: inline-block;
+    position: relative;
+    /*margin: 0 auto;*/
+    overflow: hidden;
+    width: 74px;
+    height: 100px;
+}
+
+.main_nut:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 0 0 1000px #000;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right_nut {
+    display: inline-block;
+    border-bottom: 50px solid transparent;
+    border-left: 34px solid black;
+    border-top: 50px solid transparent;
+    margin-left: -5px;
+
+}
+
+.left_nut {
+    display: inline-block;
+    border-bottom: 50px solid transparent;
+    border-right: 34px solid black;
+    border-top: 50px solid transparent;
+    margin-right: -5px;
+}
+
+.key {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 180px;
+    height: 26px;
+    background: black;
+    transform: rotate(50deg);
+}
+
+.key:before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-right: 30px solid black;
+    border-bottom: 30px solid black;
+    border-radius: 45%;
+    transform: rotate(317deg) translate(-85%, -135%);
+}
+
+.key:after {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background: radial-gradient(at 50% 50%, transparent 10%,transparent 25%, black 26%, black 50%);
+    position: absolute;
+    top: 0;
+    right: -12%;
+    border-radius: 10%;
+}
+
+.elephant {
+    background: #EFDD8D;
+    width: 600px;
+    height: 600px;
+}
+
+.body {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #777;
+    position: relative;
+    transform: translate(100%, 100%);
+}
+
+.head {
+    width: 200px;
+    height: 100px;
+    background: #777;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: 68%;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    z-index: 1;
+}
+
+.head:after {
+    content: "";
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    right: 37%;
+    top: 49%;
+    background: radial-gradient(circle at 50% 50%, transparent 18%,#777777 18%, #777777 61%, transparent 61%);
+}
+
+.party-hat {
+    position: absolute;
+    top: -71px;
+    left: -30px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #E25178;
+    transform: rotate(5deg);
+}
+
+.party-hat:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 80px;
+    height: 80px;
+    background-image: radial-gradient(circle, white 5px, transparent 6px);
+}
+
+.body:before {
+    content: "";
+    position: absolute;
+    background: #777;
+    width: 60px;
+    height: 12px;
+    left: 84%;
+    top: 52%;
+    transform: rotate(45deg);
+    border-radius: 10px;
+}
+
+.eye {
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #FFF;
+}
+
+.eye:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #000;
+}
+
+.ear {
+    position: absolute;
+    left: -1px;
+    top: 25px;
+    width: 90px;
+    height: 70px;
+    background: #EDBBB4;
+    border-radius: 100%;
+    z-index: 2;
+    transform: rotate(110deg);
+}
+
+.left_leg {
+    position: absolute;
+    width: 30px;
+    height: 100px;
+    left: 67px;
+    top: 133px;
+    background: #777;
+    border-radius: 10%;
+}
+
+.right_leg {
+    position: absolute;
+    width: 30px;
+    height: 100px;
+    left: 107px;
+    top: 133px;
+    background: #777;
+    border-radius: 10%;
+}
