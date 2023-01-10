@@ -917,3 +917,98 @@ div div div {
     background: #777;
     border-radius: 10%;
 }
+
+form {
+    width: 600px;
+    height: 500px;
+    background: lightcoral;
+    position: relative;
+    text-align: left;
+}
+
+.select_2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    font-size: 14px;
+    width: 80px;
+    background: url('../img/down-arrows.svg') no-repeat right;
+    background-size: 16px;
+}
+
+.select:after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: -7px;
+    width: 36px;
+    height: 32px;
+    background: url('../img/down-arrows.svg') no-repeat right;
+    background-size: 16px;
+    pointer-events: none;
+}
+
+select {
+    padding-right: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    height: 80px;
+    opacity: 0;
+}
+
+.quantity-wrapper {
+    position: relative;
+}
+
+.quantity-wrapper:after {
+    content: "+";
+    position: absolute;
+    left: 161px;
+    height: 100%;
+    top: -1px;
+    pointer-events: none;
+}
+
+.quantity-wrapper:before {
+    content: "-";
+    position: absolute;
+    left: 163px;
+    height: 100%;
+    top: 4px;
+    pointer-events: none;
+}
+
+.place {
+    width: 190px;
+}
+
+::-webkit-input-placeholder {color:#c0392b;}
+::-moz-placeholder          {color:#c0392b;}/* Firefox 19+ */
+:-moz-placeholder           {color:#c0392b;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#c0392b;}
+
+input[placeholder]          {text-overflow:ellipsis;}
+input::-moz-placeholder     {text-overflow:ellipsis;}
+input:-moz-placeholder      {text-overflow:ellipsis;}
+input:-ms-input-placeholder {text-overflow:ellipsis;}
+
+.place_2::-webkit-input-placeholder       {text-indent: 0;   transition: text-indent 0.3s ease;}
+.place_2::-moz-placeholder                {text-indent: 0;   transition: text-indent 0.3s ease;}
+.place_2:-moz-placeholder                 {text-indent: 0;   transition: text-indent 0.3s ease;}
+.place_2:-ms-input-placeholder            {text-indent: 0;   transition: text-indent 0.3s ease;}
+.place_2:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+.place_2:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+.place_2:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+.place_2:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+
+.place_2 {
+    width: 200px;
+}
