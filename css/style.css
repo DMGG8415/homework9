@@ -932,7 +932,7 @@ form {
     -ms-appearance: none;
     font-size: 14px;
     width: 80px;
-    background: url(../img/down-arrows.svg) no-repeat right;
+    background: url('../img/down-arrows.svg') no-repeat right;
     background-size: 16px;
 }
 
@@ -944,7 +944,7 @@ form {
     top: -7px;
     width: 36px;
     height: 32px;
-    background: url(../img/down-arrows.svg) no-repeat right;
+    background: url('../img/down-arrows.svg') no-repeat right;
     background-size: 16px;
     pointer-events: none;
 }
