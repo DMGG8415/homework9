@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f73c55c2-0514-4d61-8dd6-13b546c85f75" name="Changes" comment="homework15 hover me" />
+    <list default="true" id="f73c55c2-0514-4d61-8dd6-13b546c85f75" name="Changes" comment="homework15 hover me">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +94,7 @@
       <workItem from="1673335924279" duration="2076000" />
       <workItem from="1673363348916" duration="956000" />
       <workItem from="1673364324470" duration="4388000" />
-      <workItem from="1673607964764" duration="707000" />
+      <workItem from="1673607964764" duration="8052000" />
     </task>
     <task id="LOCAL-00001" summary="test 2">
       <created>1669493097889</created>
@@ -260,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673608672029</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="homework15 hover me">
+      <created>1673608837838</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1673608837838</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
